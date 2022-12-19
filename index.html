@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capybara</title>
+    <!--Icono-->
+    <link rel="shortcut icon" href="./images/icons/favicon.ico" type="image/x-icon">
+    <!--Enlace a font awesome 4.7-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Enlace al estilo-->
+    <link rel="stylesheet" href="./css/index.css">
+
+
+</head>
+
+<body>
+    <div id="image-popup"></div>
+    <!--Voy a utilizar este div de forma que no permite pulsar otras imagenes cuando ya hay un pop up-->
+    <div id="image-popup-back"></div>
+    <div id="hero">
+        <!-- video de fondo -->
+        <video autoplay muted loop poster="images/anatomy/yellowish-brown-capybara.jpg" id="myVideo">
+            <source src="./videos/CapybaraVideo.mp4" type="video/mp4">
+        </video>
+        <!-- contenido del video -->
+        <div class="content">
+            <div class="text">
+                <h1>Capybara</h1>
+                <br>
+                <p>The chillest animal in the world</p>
+            </div>
+            <a href="#intro" class="scroll-down" address="true"></a>
+        </div>
+    </div>
+
+    <!-- barra de navegación -->
+    <nav>
+        <div><a href="#hero"><img id="logo" src="./images/icons/capybara.png" alt="Logo"></a></div>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#intro" class="nav-link">Intro</a>
+            </li>
+            <li class="nav-item">
+                <a href="#anatomy" class="nav-link">Anatomy</a>
+            </li>
+            <li class="nav-item">
+                <a href="#habitat" class="nav-link">Habitats</a>
+            </li>
+            <li class="nav-item">
+                <a href="#socialbehavior" class="nav-link">Social Behavior</a>
+            </li>
+            <li class="nav-item">
+                <a href="#diet" class="nav-link">Diet</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <div id="wrapper">
+        <section id="intro">
+            <div class="grid2">
+                <div class="col2">
+                    <div class="titulo-section">
+                        Intro
+                    </div>
+                    <div>
+                        <p>These fascinating animals are native to South America and are known for their social, playful
+                            nature and adaptability to different environments. This website will explore the many
+                            characteristics and behaviors of capybaras, including their natural habitat and diet, social
+                            interactions, and communication.</p>
+                        <br>
+                    </div>
+                </div>
+                <div class="image-parent col2">
+                    <img id="img1" src="images/intro/CapybaraSitting.png" alt="Capybara Sitting">
+                </div>
+                <div class="col2">
+                    <p>Whether you're a capybara enthusiast or simply curious about
+                        these amazing animals, I hope you'll find this website informative and enjoyable. So let's dive
+                        into the world of capybaras and learn all about them!</p>
+                </div>
+
+            </div>
+        </section>
+        <section id="anatomy">
+            <div class="grid2">
+                <div class="col2">
+                    <div class="titulo-section">
+                        Anatomy
+                    </div>
+                    <div>
+                        <p>They have a long, stout body with short legs and a round head. Their eyes and nostrils are
+                            positioned on top of their head, which allows them to see and breathe while mostly submerged
+                            in water. They have thick, coarse fur that can range in color from reddish-brown to
+                            yellowish-brown.</p>
+                        <br>
+                        <p>Capybaras have large, sharp incisors that they use for gnawing on vegetation, and they have
+                            webbed feet that help them swim. They are social animals and can be found in groups in close
+                            proximity to water sources.</p>
+                        </p>
+                        <br>
+                    </div>
+                </div>
+                <div class="image-parent col2">
+                    <img id="img2" src="images/anatomy/anatomy1.png" alt="X-ray Capybara">
+                    <img id="img2-1" src="images/anatomy/anatomy1-2.png" alt="Normal Capybara">
+                </div>
+                <div class="col2" id="btn-container">
+                    <button id="x-ray-btn">
+                        <span class="button_top"> Turn on X-ray</span>
+                    </button>
+                </div>
+                <div class="col2">
+                    <p>Overall, the anatomy of a capybara is well-adapted for their semi-aquatic lifestyle and for
+                        foraging on land for vegetation.</p>
+                </div>
+                <div class="col2">
+                    <br>
+                    <p>Capybaras are typically about 1 m long, 0.5 m tall and weigh around 50kg, although some
+                        individuals can be larger or smaller. They have short, dense fur that can be
+                        brown,reddish-brown, or yellowish-brown in color. The fur on their underside is usually lighter
+                        in color. Capybaras have short, stocky legs and a somewhat barrel-shaped body. They have large,
+                        pointed ears and a long, pointed nose.</p>
+                </div>
+                <div id="img3-container" class="col2">
+                    <img id="img3" src="images/anatomy/anatomy2.svg" alt="X-ray Capybara">
+                </div>
+                <div id="capybara-imgs-container">
+                    <div>
+
+                        <div><img id="img4" src="./images/anatomy/reddish-brown-capybara.JPG"
+                                alt="reddish-brown-capybara"></div>
+                        <figcaption>Reddish-brown capybara</figcaption>
+                    </div>
+                    <div>
+                        <div><img id="img5" src="./images/anatomy/yellowish-brown-capybara.jpg"
+                                alt="yellowish-brown-capybara"></div>
+                        <figcaption>Yellowish-brown capybara</figcaption>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="habitat">
+            <div class="grid2">
+                <div id="titulo" class="col2">
+                    <div class="titulo-section">
+                        Habitats
+                    </div>
+                    <div>
+                        <p>Capybaras can be found in a variety of habitats including savannas, grasslands, forests, and
+                            marshes. Since they are semi-aquatic animals, they are often found near bodies of water such
+                            as rivers, streams, and lakes.</p>
+                    </div>
+                </div>
+                <div id="habitat-gallery">
+                    <div>
+                        <div><img id="img6" src="./images/habitats/Savanna.jpg" alt="Photo of a savanna"></div>
+                        <figcaption>Savanna</figcaption>
+                    </div>
+                    <div>
+                        <div><img id="img7" src="./images/habitats/Grassland.jpg" alt="Photo of a grassland"></div>
+                        <figcaption>Grassland</figcaption>
+                    </div>
+                    <div>
+                        <div><img id="img8" src="./images/habitats/Forest.jpg" alt="Photo of a forest"></div>
+                        <figcaption>Forest</figcaption>
+                    </div>
+                    <div>
+                        <div><img id="img9" src="./images/habitats/Marsh.jpg" alt="Photo of a marsh"></div>
+                        <figcaption>Marsh</figcaption>
+                    </div>
+                    <div id="video-container">
+                        <iframe src="https://www.youtube.com/embed/rQgsiKqPmF8" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; modestbranding; loop; clipboard-write; encrypted-media; rel; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <figcaption>Capybara Swimming</figcaption>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="socialbehavior">
+            <div class="grid2">
+                <div id="titulo" class="col2">
+                    <div class="titulo-section">
+                        Social behavior
+                    </div>
+                    <div>
+                        <p>
+                            Capybaras are social animals that live in groups called "herds." Herds can range in size
+                            from just a few individuals to over 100 individuals, and they are typically led by a
+                            dominant male.
+                            Capybaras use a variety of vocalizations to communicate with each other. Here are some
+                            common sounds that capybaras make and what they may mean:
+                        </p>
+                    </div>
+                </div>
+                <div id="capybara-sounds">
+                    <div>
+                        <div>
+                            <p><strong>Whistling</strong>: Capybaras may whistle to alert other members of their group
+                                to danger, or to
+                                call their young back to the group.</p>
+                        </div>
+                        <div>
+                            <audio class="capybara-sound" controls title="Capybara whistling">
+                                <source src="./sounds/Whistling.mp3" type="audio/mp3">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><strong>Barking</strong>: Capybaras may make a barking sound when they are excited or
+                                want to get the
+                                attention of other capybaras.</p>
+                        </div>
+                        <div>
+                            <audio class="capybara-sound" controls title="Capybara barking">
+                                <source src="./sounds/Barking.mp3" type="audio/mp3">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><strong>Purring</strong>: Capybaras may make a low, vibrating sound that is similar to a
+                                cat's purr when
+                                they are feeling content and relaxed.</p>
+                        </div>
+                        <div>
+                            <audio class="capybara-sound" controls title="Capybara purring">
+                                <source src="./sounds/Purring.mp3" type="audio/mp3">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+                <div id="capybara-friends">
+                    <div>
+                        <p>
+                            They are generally peaceful and get along with other animals, including other capybaras, as
+                            well as with humans. In their natural habitat, capybaras live in close proximity to a
+                            variety of other animals, including birds, reptiles, and other mammals. They are generally
+                            non-aggressive and do not pose a threat to other animals.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./images/social-behavior/CapybaraWithFriends.jpg" id="img10" alt="Capybara with friends">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="diet">
+            <div class="grid2">
+                <div id="titulo" class="col2">
+                    <div class="titulo-section">
+                        Diet
+                    </div>
+                    <div>
+                        <p>
+                            Capybaras are herbivores and primarily feed on grasses and aquatic plants in their natural
+                            habitat. They are known to graze on grasses, rushes, and other types of vegetation, and they
+                            also consume fruit and other plant matter when it is available. In addition to grasses,
+                            capybaras may also consume a variety of other plants, including leaves, stems, and roots.
+                            Here are some examples of what can a capybara eat:
+                        </p>
+                    </div>
+                </div>
+                <div id="food-container">
+                    <div class="food">
+                        <img src="./images/diet/Hay.png" id="img11" alt="Hay" width="600" height="400">
+                        <div class="desc">Hay <span><a href="https://just4rabbits.uk/product/ultra-premium-timothy-hay-for-rabbits/">Buy</a></span></div>
+                    </div>
+    
+                    <div class="food">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QUqCWkPlLLc?start=106" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="desc">Mandarin <span><a href="https://www.coabe.es/en/buy-mandarin-online/">Buy</a></span></div>
+                    </div>
+    
+                    <div class="food">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/iHjoG5ABUNo?start=49" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="desc">Watermelon <span><a href="https://www.amazon.com/WHOLE-WATERMELON-PRODUCE-VEGETABLES-FLORIDA/dp/B007V1QDIO">Buy</a></span></div>
+                    </div>
+
+                    <div class="food">
+                        <img src="./images/diet/grass-pellets.jpg" id="img12" alt="Grass pellets" width="600" height="400">
+                        <div class="desc">Grass pellets <span><a href="https://www.directfarmsupplies.co.uk/product/emerald-green-grass-pellets/">Buy</a></span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="grid3">
+            <div class="col3"><img src="./images/icons/capybara.png" alt="Logo"></div>
+            <div class="col3" id="mininav">
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#intro" class="nav-link">Intro</a>
+                    <a href="#anatomy" class="nav-link">Anatomy</a>
+                    <a href="#habitat" class="nav-link">Habitats</a>
+                    <a href="#socialbehavior" class="nav-link">Social Behavior</a>
+                    <a href="#diet" class="nav-link">Diet</a>
+            </ul></div>
+            <div class="col3" id="social-media">
+                <div>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-pinterest"></a>
+                    <a href="#" class="fa fa-reddit"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./javascript/script.js"></script>
+    <script src="./javascript/x-ray.js"></script>
+    <script src="./javascript/popup.js"></script>
+</body>
+
+</html>
