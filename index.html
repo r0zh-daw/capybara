@@ -23,7 +23,7 @@
     <div id="hero">
         <!-- video de fondo -->
         <video autoplay muted loop poster="images/anatomy/yellowish-brown-capybara.jpg" id="myVideo">
-            <source src="./videos/CapybaraVideo.mp4" type="video/mp4">
+            <source id="myVideo" src="./videos/CapybaraVideo.mp4" type="video/mp4">
         </video>
         <!-- contenido del video -->
         <div class="content">
@@ -33,6 +33,7 @@
                 <p>The chillest animal in the world</p>
             </div>
             <a href="#intro" class="scroll-down" address="true"></a>
+            <button id="myBtn" onclick="myFunction()">⏸︎</button>
         </div>
     </div>
 
@@ -325,6 +326,7 @@
     <script src="./javascript/script.js"></script>
     <script src="./javascript/x-ray.js"></script>
     <script src="./javascript/popup.js"></script>
+    <script src="./javascript/videoplayer.js"></script>
 </body>
 
 </html>

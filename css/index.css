@@ -186,6 +186,17 @@ nav div {
     position: relative;
 }
 
+#myBtn {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    cursor: pointer;
+}
+    
+
 .content {
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
