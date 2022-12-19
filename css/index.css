@@ -195,7 +195,10 @@ nav div {
     color: #fff;
     cursor: pointer;
 }
-    
+
+#myBtn img{
+    width: 30px;
+}
 
 .content {
     position: absolute;

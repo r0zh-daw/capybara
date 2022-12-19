@@ -8,9 +8,9 @@ var btn = document.getElementById("myBtn");
 function myFunction() {
     if (video.paused) {
         video.play();
-        btn.innerHTML = "⏸︎";
+        btn.innerHTML = '<img src="./images/buttons/pause-512.png" alt="">';
     } else {
         video.pause();
-        btn.innerHTML = "⏵︎";
+        btn.innerHTML = '<img src="./images/buttons/play-512.png" alt="">';
     }
 }
